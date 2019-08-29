@@ -1,0 +1,303 @@
+.geren-wrap {
+  overflow: hidden;
+  transition: 1s;
+}
+.geren-ye {
+  width: 10.8rem;
+}
+.geren-header {
+  background-image: url('https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/User_bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.geren-header > div:first-child {
+  margin-top: 0.3rem;
+  margin-bottom: 0.2rem;
+  margin-left: 9rem;
+}
+.geren-header > div:first-child span {
+  color: #fff;
+  font-size: 0.6rem;
+}
+.geren-header > img {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.geren-header > h4 {
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 0.7rem;
+  font-size: 0.6rem;
+  font-weight: 10;
+}
+.geren-header > div:last-child {
+  width: 5rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.geren-header > div:last-child p {
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+}
+.geren-header > div:last-child span {
+  display: block;
+  font-size: 0.28rem;
+  color: #fff;
+  text-align: center;
+}
+.geren-banner {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.2rem;
+}
+.geren-banner > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.geren-banner > div:first-child h3 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  margin-left: 0.5rem;
+  color: #555;
+}
+.geren-banner > div:first-child a {
+  display: block;
+  width: 2rem;
+  color: #fff;
+  background-color: #dd4f43;
+  border-radius: 1rem 0 0 1rem;
+  font-size: 0.4rem;
+  line-height: 0.6rem;
+  padding-right: 0.8rem;
+  padding-left: 0.6rem;
+  margin: 0.2rem 0;
+}
+.geren-banner > div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.geren-banner > div:last-child > div img {
+  display: block;
+  width: 3.58rem;
+  height: 2.3rem;
+}
+.geren-banner > div:last-child > div span {
+  display: block;
+  font-size: 0.16rem;
+  color: #555;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+}
+.geren-main {
+  padding-bottom: 2rem;
+}
+.geren-main .geren-main-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c9c9c9;
+  margin-bottom: 0.14rem;
+}
+.geren-main .geren-main-top span {
+  width: 50%;
+  display: block;
+  text-align: center;
+  font-size: 0.4rem;
+  line-height: 0.9rem;
+}
+.geren-main .geren-main-top span:first-child {
+  color: #fff;
+  background: linear-gradient(to right, #ce8d89, #d12a18);
+  border-radius: 0 1rem 1rem 0;
+  padding-left: 2rem;
+}
+.geren-main .geren-main-top span:last-child {
+  color: #000;
+  background-color: #c9c9c9;
+  padding-right: 2rem;
+  border-radius: 1rem 0 0 1rem;
+}
+.geren-main-section {
+  display: flex;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.geren-main-section > div {
+  width: 10.8rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.geren-main-section div img {
+  height: 5.4rem;
+  display: block;
+  width: 50vw;
+}
+.geren-shezhi {
+  position: fixed;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #e0eaec;
+  z-index: 99;
+  transition: 0.5s;
+}
+.geren-shezhi .shezhi-header {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+.geren-shezhi .shezhi-header img {
+  display: block;
+  height: 1.8rem;
+  margin-right: 4rem;
+}
+.geren-shezhi .shezhi-header span {
+  display: block;
+  line-height: 1.4rem;
+  font-size: 0.6rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+.geren-shezhi .shezhi-mainone {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  margin-bottom: 0.4rem;
+}
+.geren-shezhi .shezhi-mainone > div {
+  width: 96%;
+  margin: 0 auto;
+  border-bottom: 1px solid #bcbcbc;
+  display: flex;
+  justify-content: space-between;
+}
+.geren-shezhi .shezhi-mainone > div > div > span {
+  display: block;
+  font-size: 0.3rem;
+  line-height: 1.4rem;
+  width: 5rem;
+  color: #6a6a6a;
+}
+.geren-shezhi .shezhi-mainone > div > div:last-child span {
+  text-align: right;
+  margin-right: 0.5rem;
+}
+.geren-shezhi .shezhi-mainone > div > div:first-child span {
+  text-align: left;
+  margin-left: 0.2rem;
+}
+.geren-shezhi .shezhi-footer {
+  background-image: url('https://dev.tencent.com/u/GreatDseven/p/images/git/raw/master/fabu_01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.geren-shezhi .shezhi-footer a {
+  display: block;
+  width: 4rem;
+  margin: 0 auto;
+  margin-top: 2.6rem;
+  margin-bottom: 0.5rem;
+  padding: 0.2rem 1.2rem;
+  font-size: 0.36rem;
+  background-color: #cf2f21;
+  color: #ffeff6;
+  border-radius: 1rem;
+}
+.geren-shezhi .shezhi-footer span {
+  display: block;
+  font-size: 0.2rem;
+  width: 4rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.geren-xinxi {
+  position: fixed;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #e0eaec;
+  z-index: 99;
+  transition: 0.5s;
+}
+.geren-xinxi .xinxi-header {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+.geren-xinxi .xinxi-header img {
+  display: block;
+  height: 1.8rem;
+  margin-right: 4rem;
+}
+.geren-xinxi .xinxi-header span {
+  display: block;
+  line-height: 1.4rem;
+  font-size: 0.6rem;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+.geren-xinxi .xinxi-mainone {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  margin-bottom: 0.4rem;
+}
+.geren-xinxi .xinxi-mainone > div {
+  width: 96%;
+  margin: 0 auto;
+  border-bottom: 1px solid #bcbcbc;
+  display: flex;
+  justify-content: space-between;
+}
+.geren-xinxi .xinxi-mainone > div > div > span {
+  display: block;
+  font-size: 0.3rem;
+  line-height: 1.4rem;
+  width: 5rem;
+  color: #6a6a6a;
+}
+.geren-xinxi .xinxi-mainone > div > div {
+  display: flex;
+  justify-content: space-around;
+}
+.geren-xinxi .xinxi-mainone > div > div:last-child span {
+  display: block;
+  width: 2rem;
+}
+.geren-xinxi .xinxi-mainone > div > div:last-child > span:first-child {
+  display: block;
+  margin-right: -1rem;
+}
+.geren-xinxi .xinxi-mainone > div > div > img {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  margin-right: -1rem;
+}
+.geren-xinxi .xinxi-mainone > div > div:last-child span {
+  text-align: right;
+  margin-right: 0.5rem;
+}
+.geren-xinxi .xinxi-mainone > div > div:first-child span {
+  text-align: left;
+  margin-left: 0.2rem;
+}
