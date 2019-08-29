@@ -9,7 +9,7 @@
     "react-scripts": "3.0.1",
     "swiper": "^4.5.0"
   },
-  "homepage": "https://greatdseven.github.io/tnt",
+  "homepage": "https://yoyo-kira.github.io/yiji-js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
